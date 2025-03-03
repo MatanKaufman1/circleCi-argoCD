@@ -3,11 +3,11 @@ all:
     gitlab:
       hosts:
         gitlab_host:
-          ansible_host: 18.157.163.126
+          ansible_host: HOST_IP
           ansible_user: ubuntu
-          ansible_ssh_private_key_file: /home/matan/Downloads/k8s.pem
+          ansible_ssh_private_key_file: /path/to//k8s.pem
 
 
   vars:
-    ansible_ssh_private_key_file: /home/matan/Downloads/k8s.pem
+    ansible_ssh_private_key_file: /path/to/k8s.pem
     ansible_user: ubuntu

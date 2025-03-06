@@ -5,32 +5,32 @@ This project is a CI/CD pipeline using CircleCI, Terraform, Ansible, and ArgoCD 
 
 ## Project Structure
 ```
-├── ansible                 # Ansible playbooks for self-hosted GitLab
+├── ansible                 
 │   ├── gitlab.yaml
 │   └── inventory.yaml
-├── README.md               # Project documentation
-├── requirements.txt        # Python dependencies
-├── src                     # Application source code
-│   ├── app.py              # Main application logic
-│   ├── Dockerfile          # Docker container definition
-│   ├── exceptions.py       # Custom exceptions handling
+├── README.md              
+├── requirements.txt       
+├── src                    
+│   ├── app.py             
+│   ├── Dockerfile         
+│   ├── exceptions.py      
 │   ├── static
-│   │   └── style.css       # CSS styles
-│   ├── templates           # HTML templates
+│   │   └── style.css      
+│   ├── templates        
 │   │   ├── 404.html
 │   │   └── weather.html
-│   ├── tests               # Automated tests
+│   ├── tests              
 │   │   ├── check-connectivity.py
 │   │   └── test-selenium.py
-│   ├── weather_utility.py  # Utility functions
-│   └── wsgi.py             # WSGI entry point
-└── terraform               # Infrastructure as Code (IaC) with Terraform
-    ├── eks-cluster.tf      # EKS cluster definition
-    ├── main.tf             # Main Terraform configuration
-    ├── outputs.tf          # Terraform output values
-    ├── terraform.tf        # Terraform configuration
-    ├── variables.tf        # Variable definitions
-    └── vpc.tf              # Virtual Private Cloud (VPC) configuration
+│   ├── weather_utility.py  
+│   └── wsgi.py             
+└── terraform               
+    ├── eks-cluster.tf      
+    ├── main.tf             
+    ├── outputs.tf        
+    ├── terraform.tf      
+    ├── variables.tf       
+    └── vpc.tf              
 ```
 
 ## CI/CD Pipeline
